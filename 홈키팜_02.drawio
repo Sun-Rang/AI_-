@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T03:41:06.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3Uxz7SalELpKRg0ctgvb" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T03:46:45.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fHDUMSqbUInfsmlOPxLk" version="21.6.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="6288" dy="3724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5430" dy="2928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -371,7 +371,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-52" value="온도 데이터가 nan인가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-52" value="온도 데이터가 nan인가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-3285" y="200" width="475" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-55" value="Yes" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
