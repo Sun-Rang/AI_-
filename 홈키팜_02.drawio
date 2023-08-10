@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T06:39:06.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YYZ9ffL_B-J8gZ3xus5A" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T06:43:43.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XEH-TlwyIrXbn06n0ND7" version="21.6.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="5430" dy="2913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6860" dy="4225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -392,7 +392,7 @@
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-62" target="Pv6JQm2EQvo27AxfOFqY-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-62" target="Pv6JQm2EQvo27AxfOFqY-63">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-62" target="Pv6JQm2EQvo27AxfOFqY-63">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2470" y="150" as="targetPoint" />
           </mxGeometry>
@@ -401,7 +401,7 @@
           <mxGeometry x="-3385" y="380" width="675" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-63" value="야간 모드" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2620" y="240" width="295" height="80" as="geometry" />
+          <mxGeometry x="-2600" y="405" width="295" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-64" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-51" target="Pv6JQm2EQvo27AxfOFqY-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -409,8 +409,8 @@
             <mxPoint x="-2819.5" y="-660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-69" value="No" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2530" y="390" width="50" height="40" as="geometry" />
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-69" value="Yes" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2685" y="405" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-82" value="온도가 적정 온도 - 1도 이하인가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-3395" y="580" width="695" height="170" as="geometry" />
@@ -451,6 +451,16 @@
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-110" value="No" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-3035" y="1030" width="50" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-111" target="Pv6JQm2EQvo27AxfOFqY-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3850" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3048" y="1360" />
+              <mxPoint x="-2250" y="1360" />
+              <mxPoint x="-2250" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-111" value="온도가 적정 온도 +1도 이상인가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-3395.84" y="1090" width="695" height="170" as="geometry" />
         </mxCell>
@@ -466,7 +476,7 @@
             <mxPoint x="-2630" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-119" value="적정 모드" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-119" value="냉방 모드" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2600" y="1135" width="295" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-120" value="Yes" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
@@ -477,6 +487,9 @@
             <mxPoint x="-2701" y="1130" as="sourcePoint" />
             <mxPoint x="-2630" y="1225" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-123" value="No" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-3040" y="1290" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
