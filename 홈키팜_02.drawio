@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T01:40:44.454Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H9HhWm4SCaxN9V3daMc3" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T01:48:29.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0z5VFl3dZoE4rgfvKFBI" version="21.6.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="4953" dy="2485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5144" dy="2662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,14 +246,14 @@
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-11" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;기본 모드 설정(Bool) &lt;br&gt;온도(주야간) 설정&lt;br&gt;고정습도 설정&lt;br&gt;수위 임계값 설정&lt;br&gt;센서 아두이노 주소 설정&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-3450" y="-1030" width="270" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-13" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-9">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-13" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-9" target="Pv6JQm2EQvo27AxfOFqY-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3040" y="25" as="sourcePoint" />
-            <mxPoint x="-3047" y="-210" as="targetPoint" />
+            <mxPoint x="-3047" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-14" value="온도 설정" style="shape=parallelogram;html=1;strokeWidth=5;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3670" y="-420" width="243.33" height="110" as="geometry" />
+          <mxGeometry x="-3599.99" y="-420" width="243.33" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-14" target="Pv6JQm2EQvo27AxfOFqY-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -261,25 +261,25 @@
             <mxPoint x="-2830" y="-225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-18" value="Sensor&amp;nbsp;measurement" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3205" y="-205" width="315" height="80" as="geometry" />
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-18" value="수신한 값에 따른 센서동작" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3255" y="-250" width="415" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-19" value="" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3225" y="-65" width="355" height="90" as="geometry" />
+          <mxGeometry x="-3225" y="645" width="355" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-20" value="Input&lt;br&gt;Time" style="shape=parallelogram;html=1;strokeWidth=5;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3450" y="-80" width="176.67" height="120" as="geometry" />
+          <mxGeometry x="-3450" y="630" width="176.67" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-21" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-18" target="Pv6JQm2EQvo27AxfOFqY-19">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-21" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2620" y="-125" as="sourcePoint" />
-            <mxPoint x="-2618.3299999999995" y="65" as="targetPoint" />
+            <mxPoint x="-3047" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-20" target="Pv6JQm2EQvo27AxfOFqY-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2830" y="-125" as="sourcePoint" />
-            <mxPoint x="-2828.3299999999995" y="65" as="targetPoint" />
+            <mxPoint x="-2830" y="585" as="sourcePoint" />
+            <mxPoint x="-2828.3299999999995" y="775" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-25" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-5" target="Pv6JQm2EQvo27AxfOFqY-10">
@@ -300,13 +300,29 @@
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-32" value="센서 아두이노가 동작하는가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=25;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-3356.66" y="-600" width="616.66" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Pv6JQm2EQvo27AxfOFqY-34" value="센서가 동작하지 않음" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-34" value="센서 아두이노와 연결" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=30;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-3255" y="-770" width="415" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Pv6JQm2EQvo27AxfOFqY-35" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-34" target="Pv6JQm2EQvo27AxfOFqY-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3048" y="-660" as="sourcePoint" />
             <mxPoint x="-3000" y="-620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-37" value="Yes" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-3040" y="-480" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-38" value="No" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2628.87" y="-655" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv6JQm2EQvo27AxfOFqY-39" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pv6JQm2EQvo27AxfOFqY-32" target="Pv6JQm2EQvo27AxfOFqY-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2588.67" y="-690" as="sourcePoint" />
+            <mxPoint x="-2630" y="-780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2640" y="-555" />
+              <mxPoint x="-2640" y="-730" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
