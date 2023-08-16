@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T14:41:12.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MTNSD4v3vv0-RASA-J-P" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T14:42:42.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GPok8XzQPsCq52dJEU4r" version="21.6.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="10364" dy="4228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
+    <mxGraphModel dx="9003" dy="3591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,7 +569,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-28" value="LCD 모니터&lt;br style=&quot;font-size: 50px;&quot;&gt;온습도 및 모드 출력" style="shape=parallelogram;html=1;strokeWidth=5;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=default;fontFamily=Helvetica;fontSize=50;fontColor=default;fillColor=default;spacingLeft=0;spacingRight=32;" vertex="1" parent="1">
-          <mxGeometry x="-5225.89" y="570" width="642.73" height="210" as="geometry" />
+          <mxGeometry x="-5225.89" y="610" width="642.73" height="210" as="geometry" />
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-29" value="모드가 주간인가?" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=50;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-5281.37" y="40" width="753.7" height="200" as="geometry" />
@@ -585,38 +585,39 @@
             <mxPoint x="-4260" y="160" as="targetPoint" />
             <mxPoint x="-4301.14" y="-230" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-4313" y="140" />
+              <mxPoint x="-4213" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=10;" edge="1" parent="1" source="xjcOD6Azd-PvymipBn3g-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-4900" y="395" as="targetPoint" />
-            <mxPoint x="-4307.344999999999" y="395" as="sourcePoint" />
+            <mxPoint x="-4900" y="445" as="targetPoint" />
+            <mxPoint x="-4307.344999999999" y="435" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-4513" y="395" />
+              <mxPoint x="-4800" y="445" />
+              <mxPoint x="-4800" y="445" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-37" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xjcOD6Azd-PvymipBn3g-28" target="xjcOD6Azd-PvymipBn3g-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4905" y="900" as="sourcePoint" />
-            <mxPoint x="-4670" y="900" as="targetPoint" />
+            <mxPoint x="-4905" y="940" as="sourcePoint" />
+            <mxPoint x="-4670" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-38" value="난방 모드 동작" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=5;strokeColor=default;fontFamily=Helvetica;fontSize=50;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-5199.52" y="1170" width="590" height="160" as="geometry" />
+          <mxGeometry x="-5199.52" y="1210" width="590" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-39" value="야간 모드 입력" style="shape=parallelogram;html=1;strokeWidth=5;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=default;fontFamily=Helvetica;fontSize=50;fontColor=default;fillColor=default;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
-          <mxGeometry x="-4572.83" y="320" width="520.3" height="170" as="geometry" />
+          <mxGeometry x="-4472.83" y="360" width="520.3" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-41" value="적정 온도 입력" style="shape=parallelogram;html=1;strokeWidth=5;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;strokeColor=default;fontFamily=Helvetica;fontSize=50;fontColor=default;fillColor=default;spacingLeft=0;spacingRight=0;" vertex="1" parent="1">
-          <mxGeometry x="-4599.999999999999" y="880" width="520.3" height="170" as="geometry" />
+          <mxGeometry x="-4499.999999999999" y="920" width="520.3" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xjcOD6Azd-PvymipBn3g-43" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;strokeWidth=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xjcOD6Azd-PvymipBn3g-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4290.48" y="-460" as="sourcePoint" />
-            <mxPoint x="-4900" y="965" as="targetPoint" />
+            <mxPoint x="-4290.48" y="-420" as="sourcePoint" />
+            <mxPoint x="-4900" y="1005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
